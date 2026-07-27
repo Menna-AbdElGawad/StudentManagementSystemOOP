@@ -1,4 +1,3 @@
-````markdown
 # 🎓 Student Management System
 
 A simple **Java Console Application** built using **Object-Oriented Programming (OOP)** concepts to manage student records. The system allows users to add students, display their information, calculate statistics, search by student ID, and sort students based on their grades.
@@ -161,5 +160,4 @@ java Main
 
 **Menna AbdElGawad**
 
-```
 ```
