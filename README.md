@@ -145,17 +145,6 @@ java Main
 
 ---
 
-## 📈 Future Improvements
-
-* Add Update Student feature.
-* Delete Student by ID.
-* Save and load data from files.
-* Search by student name.
-* Sort by name or ID.
-* Store data using Collections (`ArrayList`) instead of arrays.
-
----
-
 ## 👩‍💻 Author
 
 **Menna AbdElGawad**
