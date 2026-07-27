@@ -40,12 +40,30 @@ public class Student {
         return studentID + "\t" + studentName + "\t" + grade + "\n";
     }
 
+    public String gradeCalc(double grade) {
+        if(grade >= 90) {
+            return "Excellent";
+        }
+
+        else if(grade >= 75) {
+            return "Good";
+        }
+
+        else if(grade >= 60) {
+            return "Pass";
+        }
+
+        else {
+            return "Fail";
+        }
+    }
+
     public void display() {
 
         System.out.println("- Student ID: " + studentID);
         System.out.println("- Student Name: " + studentName);
         System.out.println("- Grade: " + grade);
-
+        System.out.println("- Grade Status: " + gradeCalc(grade));
         System.out.println("\n=============================\n");
 
     }
